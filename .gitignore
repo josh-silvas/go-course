@@ -1,0 +1,9 @@
+# IntelliJ Files
+.idea
+*.iml
+
+topics/interfaces/config.go
+common/settings/*_priv*
+**/cover.out
+**/.DS_Store
+test.go
