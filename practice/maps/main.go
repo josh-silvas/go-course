@@ -9,7 +9,7 @@
 package main
 
 // myMap is a collection of key:value pairs that contains a list of the different
-// platform.model's returned from CTK, with a value of a standard platform-type
+// platform.model's returned, with a value of a standard platform-type
 // classification.
 var myMap = map[string]string{
 	"Load-Balancer":                             "Load-Balancer",

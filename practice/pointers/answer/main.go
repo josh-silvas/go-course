@@ -18,7 +18,7 @@ import (
 )
 
 // DeviceData struct is a small example of data that we might want to know
-// about a CORE device.
+// about a device.
 type DeviceData struct {
 	DeviceID  int    `json:"number"`
 	Account   string `json:"account"`

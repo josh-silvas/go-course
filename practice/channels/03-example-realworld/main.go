@@ -77,8 +77,7 @@ type Resp struct {
 	} `json:"result"`
 }
 
-// Err is a type that we expect to receive back from
-// CTK when we experience an error.
+// Err is a type that we expect to receive back when we experience an error.
 type Err struct {
 	Status  int    `json:"status_code"`
 	Error   string `json:"error_message"`
@@ -92,7 +91,7 @@ type Output struct {
 	Err  error
 }
 
-// Post contains the actual http query we are making out to ctk
+// Post contains the actual http query we are making out
 func Post(device string, timer *time.Ticker, output chan Output) {
 
 	// Here, we wait in a blocking state until the timer func signals on its
@@ -101,7 +100,7 @@ func Post(device string, timer *time.Ticker, output chan Output) {
 
 	const query = `{"some_json_payload": "some_key"}`
 
-	// Make a io.Reader type using a CTK query payload
+	// Make a io.Reader type using a query payload
 	payload := strings.NewReader(fmt.Sprintf(query, device))
 
 	// NewRequest returns a new Request given a method, URL, and optional body.
@@ -110,7 +109,7 @@ func Post(device string, timer *time.Ticker, output chan Output) {
 		output <- Output{Err: err}
 		return
 	}
-	// Setting the request header for CTK token auth
+	// Setting the request header for token auth
 	req.Header.Set("API-KEY", os.Getenv("TOKEN"))
 
 	res, err := http.DefaultClient.Do(req)
@@ -129,7 +128,7 @@ func Post(device string, timer *time.Ticker, output chan Output) {
 	}
 
 	// Here, we are just checking to see if the status code is something larger than
-	// we would expect to get back from CTK. In this example, I use 204, but there
+	// we would expect to get back. In this example, I use 204, but there
 	// are multiple ways to do this.
 	if res.StatusCode > http.StatusNoContent {
 		var body Err

@@ -32,7 +32,7 @@ func (s *Slack) Alert() error {
 	//
 
 	url := fmt.Sprintf("https://hooks.slack.com/services/%s", settings.SlackKey)
-	// Make a io.Reader type using a CTK query payload
+	// Make a io.Reader type using a query payload
 	payload := strings.NewReader(fmt.Sprintf(`{"text": "%s"}`, s.string))
 
 	// NewRequest returns a new Request given a method, URL, and optional body.
