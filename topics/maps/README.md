@@ -111,7 +111,7 @@ added and found key2 with value of value2
 
 ##### Deleting a Key
 Go has a `delete()` function built into the language to remove a value from a key.
-From the [builtin source](https://github.com/golang/go/blob/master/src/builtin/builtin.go#L146):
+From the [builtin source](https://github.com/golang/go/blob/default/src/builtin/builtin.go#L146):
 
 > The delete built-in function deletes the element with the specified key from 
 the map. If the key value is nil or there is no such element, delete is a no-op.
@@ -185,7 +185,7 @@ Below is an example of how hashing works with maps in Go. When a lookup on a key
 3. Use the high-order of bits from the same hash to select the element in the HOB array that references the key:value you are looking for.
 4. Finally, the last array is just a slice of bytes that actually contain the key:value data.
 
-![Hash Table Example](https://github.com/josh5276/go-course/blob/master/common/img/Map_Hash_Table.png)
+![Hash Table Example](https://github.com/josh5276/go-course/blob/default/common/img/Map_Hash_Table.png)
  - _[From: Macro View of Map Internals](https://www.ardanlabs.com/blog/2013/12/macro-view-of-map-internals-in-go.html)_
 
 #### How to Iterate in Order
@@ -209,5 +209,5 @@ for _, key := range keys {
 
 #### References
 + [Maps In Action](https://blog.golang.org/go-maps-in-action)
-+ [Go Runtime#Map](https://github.com/golang/go/blob/master/src/runtime/map.go)
++ [Go Runtime#Map](https://github.com/golang/go/blob/default/src/runtime/map.go)
 + [How the Go Runtime Implements Maps](https://dave.cheney.net/2018/05/29/how-the-go-runtime-implements-maps-efficiently-without-generics)

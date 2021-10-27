@@ -52,4 +52,4 @@ a pointer.
 | func (t Type) Example() {  | type.Example()<br>*type.Example() |
 
 ### Example
- - [Source Example](https://github.com/josh5276/go-course/blob/master/topics/methods/example.go)
+ - [Source Example](https://github.com/josh5276/go-course/blob/default/topics/methods/example.go)

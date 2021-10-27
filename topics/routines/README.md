@@ -31,7 +31,7 @@ keep data close to the hardware threads that need it. Accessing data from
 caches have a much lower cost (~3 to ~40 clock cycles) depending on the 
 cache being accessed.
 
-![Example memory cache](https://github.com/josh5276/go-course/blob/master/common/img/example_cache.png)
+![Example memory cache](https://github.com/josh5276/go-course/blob/default/common/img/example_cache.png)
 
 Your OS schedulers job is to take threads that are able to run and execute on those threads
 in a manner that allows the system to be utilized to it's fullest potential, while
@@ -93,7 +93,7 @@ and place them on the right queue at the right time, so that from the OS
 level scheduling, it appears as though there is never a time when we are 
 blocking a process from running. 
 
-![Schedulers together](https://github.com/josh5276/go-course/blob/master/common/img/OS_Go_SchedulerMap.png)
+![Schedulers together](https://github.com/josh5276/go-course/blob/default/common/img/OS_Go_SchedulerMap.png)
 
 1. M's will execute a routine that is ready to be run
 2. Asynchronous network calls can be placed on the network poller to free up the processor
@@ -106,7 +106,7 @@ blocking a process from running.
  routine from the global run queue.
  
  ### Example
-  - [Source Example](https://github.com/josh5276/go-course/blob/master/topics/routines/example.go)
+  - [Source Example](https://github.com/josh5276/go-course/blob/default/topics/routines/example.go)
   
  #### Reference
   - [Concurrency is Not Parallelism - Rob Pike](https://www.youtube.com/watch?v=cN_DpYBzKso)

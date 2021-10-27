@@ -54,57 +54,57 @@ and you are more than welcome to step through these topics in any order that wor
 
 ##### Fundamentals
  - [Variables/Structs](https://github.com/josh5276/go-course/tree/master/topics/variables_structs)
-   ([Practice](https://github.com/josh5276/go-course/blob/master/practice/variables_structs/main.go) /
-    [Answer](https://github.com/josh5276/go-course/blob/master/practice/variables_structs/answer/main.go))
+   ([Practice](https://github.com/josh5276/go-course/blob/default/practice/variables_structs/main.go) /
+    [Answer](https://github.com/josh5276/go-course/blob/default/practice/variables_structs/answer/main.go))
  - [Slices](https://github.com/josh5276/go-course/tree/master/topics/slices)
-   ([Practice](https://github.com/josh5276/go-course/blob/master/practice/slices/main.go) /
-    [Answer](https://github.com/josh5276/go-course/blob/master/practice/slices/answer/main.go))
+   ([Practice](https://github.com/josh5276/go-course/blob/default/practice/slices/main.go) /
+    [Answer](https://github.com/josh5276/go-course/blob/default/practice/slices/answer/main.go))
  - [Maps](https://github.com/josh5276/go-course/tree/master/topics/maps)
-   ([Practice](https://github.com/josh5276/go-course/blob/master/practice/maps/main.go) /
-    [Answer](https://github.com/josh5276/go-course/blob/master/practice/maps/answer/main.go))
+   ([Practice](https://github.com/josh5276/go-course/blob/default/practice/maps/main.go) /
+    [Answer](https://github.com/josh5276/go-course/blob/default/practice/maps/answer/main.go))
  - [Functions](https://github.com/josh5276/go-course/tree/master/topics/functions)
-   ([Practice](https://github.com/josh5276/go-course/blob/master/practice/functions/main.go) /
-    [Answer](https://github.com/josh5276/go-course/blob/master/practice/functions/answer/main.go))
+   ([Practice](https://github.com/josh5276/go-course/blob/default/practice/functions/main.go) /
+    [Answer](https://github.com/josh5276/go-course/blob/default/practice/functions/answer/main.go))
  - [Pointers](https://github.com/josh5276/go-course/tree/master/topics/pointers)
-   ([Practice](https://github.com/josh5276/go-course/blob/master/practice/pointers/main.go) /
-    [Answer](https://github.com/josh5276/go-course/blob/master/practice/pointers/answer/main.go))
+   ([Practice](https://github.com/josh5276/go-course/blob/default/practice/pointers/main.go) /
+    [Answer](https://github.com/josh5276/go-course/blob/default/practice/pointers/answer/main.go))
  - [Methods](https://github.com/josh5276/go-course/tree/master/topics/methods)
-   ([Practice](https://github.com/josh5276/go-course/blob/master/practice/methods/main.go) /
-    [Answer](https://github.com/josh5276/go-course/blob/master/practice/methods/answer/main.go))
+   ([Practice](https://github.com/josh5276/go-course/blob/default/practice/methods/main.go) /
+    [Answer](https://github.com/josh5276/go-course/blob/default/practice/methods/answer/main.go))
  - [Packaging](https://github.com/josh5276/go-course/tree/master/topics/packaging)
-    ([Pkg Example](https://github.com/josh5276/go-course/blob/master/practice/packaging/01-example-pkg/main.go) /
-     [Mod Practice](https://github.com/josh5276/go-course/blob/master/practice/packaging/02-practice-modules/main.go))
+    ([Pkg Example](https://github.com/josh5276/go-course/blob/default/practice/packaging/01-example-pkg/main.go) /
+     [Mod Practice](https://github.com/josh5276/go-course/blob/default/practice/packaging/02-practice-modules/main.go))
 
 ##### Interfaces
  - [Interfaces](https://github.com/josh5276/go-course/tree/master/topics/interfaces)
-   ([Practice](https://github.com/josh5276/go-course/blob/master/practice/interfaces/main.go) /
-    [Answer](https://github.com/josh5276/go-course/blob/master/practice/interfaces/answer/main.go))
-   - [Example](https://github.com/josh5276/go-course/blob/master/practice/interfaces/example/main.go)
+   ([Practice](https://github.com/josh5276/go-course/blob/default/practice/interfaces/main.go) /
+    [Answer](https://github.com/josh5276/go-course/blob/default/practice/interfaces/answer/main.go))
+   - [Example](https://github.com/josh5276/go-course/blob/default/practice/interfaces/example/main.go)
  
 ##### Error Handling
  - [Standard Errors](https://github.com/josh5276/go-course/tree/master/topics/error)
-   ([Practice](https://github.com/josh5276/go-course/blob/master/practice/errors/main.go) /
-    [Answer](https://github.com/josh5276/go-course/blob/master/practice/errors/answer/main.go))
+   ([Practice](https://github.com/josh5276/go-course/blob/default/practice/errors/main.go) /
+    [Answer](https://github.com/josh5276/go-course/blob/default/practice/errors/answer/main.go))
  - [Custom Errors](https://github.com/josh5276/go-course/tree/master/topics/error_custom)
 
 ##### Concurrent Programming
  - [Routines](https://github.com/josh5276/go-course/tree/master/topics/routines)
-   ([Practice](https://github.com/josh5276/go-course/blob/master/practice/concurrency/main.go) /
-    [Answer](https://github.com/josh5276/go-course/blob/master/practice/concurrency/answer/main.go))
+   ([Practice](https://github.com/josh5276/go-course/blob/default/practice/concurrency/main.go) /
+    [Answer](https://github.com/josh5276/go-course/blob/default/practice/concurrency/answer/main.go))
  - [Channels](https://github.com/josh5276/go-course/tree/master/topics/channels)
-   - Examples: ([UnBuffered](https://github.com/josh5276/go-course/blob/master/practice/channels/01-example-unbuffered/main.go) / 
-    [Buffered](https://github.com/josh5276/go-course/blob/master/practice/channels/01-example-buffered/main.go) / 
-    [Real-World](https://github.com/josh5276/go-course/blob/master/practice/channels/01-example-realworld/main.go))
+   - Examples: ([UnBuffered](https://github.com/josh5276/go-course/blob/default/practice/channels/01-example-unbuffered/main.go) / 
+    [Buffered](https://github.com/josh5276/go-course/blob/default/practice/channels/01-example-buffered/main.go) / 
+    [Real-World](https://github.com/josh5276/go-course/blob/default/practice/channels/01-example-realworld/main.go))
 
 ###### Hands On 
- * [Working with APIs](https://github.com/josh5276/go-course/blob/master/practice/api/main.go)
+ * [Working with APIs](https://github.com/josh5276/go-course/blob/default/practice/api/main.go)
  
 ##### Go Tools
  - [Testing](https://github.com/josh5276/go-course/tree/master/topics/testing)
-   - [UnitTest Practice](https://github.com/josh5276/go-course/blob/master/practice/testing_unit/main_test.go)
-   - [HTTPTest Example](https://github.com/josh5276/go-course/blob/master/practice/testing_http/example/main_test.go)
+   - [UnitTest Practice](https://github.com/josh5276/go-course/blob/default/practice/testing_unit/main_test.go)
+   - [HTTPTest Example](https://github.com/josh5276/go-course/blob/default/practice/testing_http/example/main_test.go)
  - [Race Detector](https://github.com/josh5276/go-course/tree/master/topics/race)
-   - [Example](https://github.com/josh5276/go-course/blob/master/practice/race/)
+   - [Example](https://github.com/josh5276/go-course/blob/default/practice/race/)
 
 ## Extras
  - [GolangCI-Lint](https://github.com/golangci/golangci-lint#golangci-lint)

@@ -93,6 +93,6 @@ func isEven(numberStr string) error {
 }
 ```
 
-[Source Example](https://github.com/josh5276/go-course/blob/master/topics/error/example.go)
+[Source Example](https://github.com/josh5276/go-course/blob/default/topics/error/example.go)
 
 [Go Playground Example](https://play.golang.org/p/LN-wTP2Rbnp)

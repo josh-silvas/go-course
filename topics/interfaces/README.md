@@ -81,7 +81,7 @@ This is really cool because we are able to decouple the functions from the types
 an interface that defines a certain set of behavior of a type.
 
  - [Go Playground Example](https://play.golang.org/p/6j0kOc3QJAO)
- - [Source Example](https://github.com/josh5276/go-course/blob/master/topics/interfaces/example.go)
+ - [Source Example](https://github.com/josh5276/go-course/blob/default/topics/interfaces/example.go)
  
 #### References
  - [Interface Naming - Effective Go](https://golang.org/doc/effective_go.html#interface-names)
